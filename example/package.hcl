@@ -1,5 +1,5 @@
 name = "puma-test"
-authors = ["Aleks Rutins <aleks@rutins.com >"]
+authors = ["Aleks Rutins <aleks@rutins.com>"]
 
 library "stuff" {
     src = "src/stuff"
@@ -9,6 +9,6 @@ library "stuff" {
 bundle "puma-test" {
     src = "src/puma-test"
     dependencies = [
-        "stuff"
+        "stuff:stuff"
     ]
 }
