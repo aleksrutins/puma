@@ -2,5 +2,15 @@
   "$schema" : "https://aleksrutins.github.io/valapkg/project.schema.json",
   "name" : "puma",
   "author" : "Aleks Rutins <keeper@farthergate.com>",
-  "website" : "https://puma.farthergate.com"
+  "website" : "https://puma.farthergate.com",
+  "build": {
+    "files": ["lib/template.vala", "lib/config.vala"],
+    "pkgs": [],
+    "targets": [
+      {
+        "name": "puma",
+        "files": ["src/main.vala"]
+      }
+    ]
+  }
 }

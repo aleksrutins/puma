@@ -1,0 +1,9 @@
+[submodule "modules/vala-console"]
+	path = modules/vala-console
+	url = https://github.com/aleksrutins/vala-console.git
+[submodule "modules/prosody"]
+	path = modules/prosody
+	url = https://github.com/aleksrutins/prosody.git
+[submodule "modules/toml-glib"]
+	path = modules/toml-glib
+	url = https://github.com/aleksrutins/toml-glib.git
