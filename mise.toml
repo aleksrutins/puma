@@ -1,0 +1,5 @@
+[tools]
+"ubi:aleksrutins/valapkg" = "latest"
+
+[tasks]
+build = "valapkg build"
