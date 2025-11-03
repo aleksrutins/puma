@@ -1,0 +1,6 @@
+{
+  "$schema" : "https://aleksrutins.github.io/valapkg/project.schema.json",
+  "name" : "puma",
+  "author" : "Aleks Rutins <keeper@farthergate.com>",
+  "website" : "https://puma.farthergate.com"
+}
